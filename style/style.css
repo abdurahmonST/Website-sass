@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 370px;
+  padding: 40px 260px;
+}
+body header .logo img {
+  width: 151px;
+  height: 47px;
+}
+body header nav {
+  font-size: 16px;
+  display: flex;
+  gap: 30px;
+}
+body header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+body header nav button {
+  font-size: 16px;
+  color: white;
+  padding: 0 18px;
+  background-color: #CAA892;
+  border: none;
+  flex-shrink: 0;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
